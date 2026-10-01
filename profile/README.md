@@ -1,61 +1,82 @@
-# Danyp-Lab 🌐🛠️
+<div align="center">
 
-Welcome to **Danyp-Lab**, a self-hosted infrastructure, networking, and GitOps ecosystem designed for high availability, security isolation, and observability.
+# 🔬 Danyp-Lab
+### *Danial Pahlavan’s Applied Engineering & Innovation Laboratory*
 
----
+[![GitHub](https://img.shields.io/badge/Founder-Danial%20Pahlavan-blue?style=for-the-badge&logo=github)](https://github.com/DanialPahlavan)
+[![Focus](https://img.shields.io/badge/Focus-AI%20%7C%20Systems%20%7C%20Farsi%20Tech%20%7C%20Media-darkgreen?style=for-the-badge)](#-research--engineering-pillars)
+[![Status](https://img.shields.io/badge/Status-Active%20R%26D-success?style=for-the-badge)](#)
 
-### 🏛️ Architecture & Ecosystem Overview
+<p align="center">
+  A multidisciplinary engineering hub exploring artificial intelligence, desktop system frameworks, Persian language technology, and applied media tools.
+</p>
 
-```
-               [ Internet / Cloudflare / DNS ]
-                              │
-                              ▼
-                   [ OPNsense / Edge Router ]
-                              │
-               ┌──────────────┴──────────────┐
-               ▼                             ▼
-      [ DMZ / External Ingress ]     [ Trusted VLAN / Internal ]
-         • Reverse Proxy (Traefik)      • Storage (TrueNAS / NFS)
-         • Authelia / Authentik         • Core DNS & WireGuard
-               │                             │
-               └──────────────┬──────────────┘
-                              ▼
-                 [ Compute Nodes & Runtimes ]
-                 • Docker Compose / Swarm / K3s
-                 • Observability (Prometheus / Grafana / Loki)
-                 • Automation (Ansible / CI/CD Runners)
-```
+</div>
 
 ---
 
-### 💻 Core Tech Stack
+### 🏛️ Research & Engineering Pillars
 
-| Category | Technologies & Tools |
+```
+                           ┌────────────────────────┐
+                           │       Danyp-Lab        │
+                           │   Engineering Studio   │
+                           └───────────┬────────────┘
+                                       │
+         ┌──────────────────┬──────────┴──────────┬──────────────────┐
+         ▼                  ▼                     ▼                  ▼
+   [ Artificial       [ Desktop &           [ Persian Lang     [ Media & Systems
+   Intelligence ]     System Tools ]        Technology ]       Automation ]
+    • Medical AI       • Cinnamon Desktop    • Localization     • FFmpeg Tools
+    • Computer Vision  • Linux Applets       • Game Tools       • Scrapers & Bots
+    • RAG & LLMs       • C++ / JS Engines    • NLP & Farsi AI   • Signal Analysis
+```
+
+---
+
+### 🔬 Core Competencies & Tech Stack
+
+| Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Containers & Virtualization** | Docker, Docker Compose, Proxmox VE, LXC |
-| **Networking & Routing** | OPNsense, WireGuard, VLAN Segmentation, Cloudflare Tunnels |
-| **Reverse Proxy & Ingress** | Traefik / Nginx Proxy Manager, Tailscale |
-| **Identity & Access** | Authentik / Authelia (SSO, 2FA, OIDC) |
-| **Observability & Logging** | Prometheus, Grafana, Loki, Uptime Kuma, cAdvisor |
-| **Storage & Backup** | TrueNAS CORE/SCALE, ZFS, Restic, BorgBackup |
-| **CI/CD & GitOps** | GitHub Actions, Self-hosted Runners, Renovate/Dependabot |
+| **Artificial Intelligence & Vision** | PyTorch, TensorFlow, OpenCV, YOLO, Hugging Face, RAG pipelines |
+| **Desktop Systems & GUI** | Linux Mint / Cinnamon, JavaScript (GJS), Python (Tkinter/PyQt), Bash |
+| **Localization & NLP** | Farsi font engines, game asset unpacking, text normalization, translation tools |
+| **Media & Audio Engineering** | FFmpeg, VoIP/Audio signal processing, codecs, automation pipelines |
 
 ---
 
-### 📂 Repository Directory
+### 🚀 Featured Laboratory Projects
 
-| Repository | Purpose | Primary Stack |
-| :--- | :--- | :--- |
-| [`infra-core`](https://github.com/Danyp-Lab/infra-core) | Base OS configurations, Ansible playbooks, and hardware bootstrap | Ansible, Bash, Linux |
-| [`network-routing`](https://github.com/Danyp-Lab/network-routing) | Firewall rules, DNS configs, WireGuard, and VLAN layouts | OPNsense, Unbound, WG |
-| [`docker-services`](https://github.com/Danyp-Lab/docker-services) | Production service stack compose definitions and env templates | Docker Compose, Traefik |
-| [`monitoring-stack`](https://github.com/Danyp-Lab/monitoring-stack) | Metrics scraping, log aggregation, and alerting dashboards | Prometheus, Grafana |
-| [`.github`](https://github.com/Danyp-Lab/.github) | Org-wide health files, reusable workflows, and issue templates | GitHub Actions |
+#### 1. 🖥️ Desktop Frameworks & Systems Engineering
+- **[`Project-Cassia`](https://github.com/Danyp-Lab/Project-Cassia)**  
+  *Customized UI framework and JavaScript applet collection designed specifically for the Cinnamon desktop environment.*  
+  `Stack: JavaScript, GJS, Cinnamon, CSS`
+
+#### 2. 🧠 Artificial Intelligence & Vision
+- **[`RAG`](https://github.com/Danyp-Lab/RAG)**  
+  *Curated architectures, retrieval pipelines, and benchmarking implementations for Retrieval-Augmented Generation.*  
+  `Stack: Python, LLM, Vector DBs`
+- **`Dental-X-Ray-Panoramic`** *(R&D / Proprietary)*  
+  *Deep learning segmentation and pathology detection on panoramic dental radiographs.*  
+  `Stack: PyTorch, Medical Imaging, Computer Vision`
+- **`body-composition_AI`** *(R&D / Proprietary)*  
+  *Automated body composition estimation and visual anthropometric feature extraction.*  
+  `Stack: Deep Learning, Pose Estimation, Python`
+
+#### 3. 🌐 Persian Language Technology & Localization
+- **`Parsik`** *(R&D / Proprietary)*  
+  *Graphical installer and integration engine to bring native Farsi language support into desktop applications and games.*  
+  `Stack: Python GUI, Asset Extraction, Localization`
+
+#### 4. 🎬 Media & Automation Utilities
+- **`FFmpegGUI`** *(R&D / Proprietary)*  
+  *Streamlined graphical interface and batch processor built on top of the FFmpeg engine.*  
+  `Stack: Python, FFmpeg, Desktop GUI`
 
 ---
 
-### 🔒 Security Baseline
+### 📬 Connect & Collaborate
 
-- **Zero Clear-Text Secrets**: All secrets managed via environment vaults / SOPS / sealed secrets; never committed to git.
-- **Least-Privilege Networking**: Strict inter-VLAN firewalls; services strictly bound to private/loopback bridges.
-- **Continuous Validation**: Linters (`actionlint`, `yamllint`, `shellcheck`, `docker compose config`) run on every PR.
+- **Lead Engineer**: [Danial Pahlavan](https://github.com/DanialPahlavan)
+- **Email**: [daniel.pahlavan@gmail.com](mailto:daniel.pahlavan@gmail.com)
+- **Organization**: [github.com/Danyp-Lab](https://github.com/Danyp-Lab)
