@@ -7,6 +7,13 @@ We treat homelab security with the same rigor as enterprise production environme
 2. Report the vulnerability privately via **[GitHub Private Vulnerability Reporting](https://github.com/Danyp-Lab/.github/security/advisories/new)** (enabled across all repos).
 3. Alternatively, contact the maintainer directly via email: `daniel.pahlavan@gmail.com`.
 
+## 📋 Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x     | :white_check_mark: |
+| 1.x     | :x:                |
+
 ---
 
 ## 🔒 Secret Management Policy
