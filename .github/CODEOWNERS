@@ -1,0 +1,17 @@
+# Global Default Owners
+* @Danyp-Lab/core-maintainers
+
+# AI, Vision & Machine Learning
+*.ipynb @Danyp-Lab/ai-researchers
+/models/ @Danyp-Lab/ai-researchers
+/training/ @Danyp-Lab/ai-researchers
+
+# Desktop Frameworks & Systems Engineering
+/applets/ @Danyp-Lab/systems-engineers
+/cinnamon/ @Danyp-Lab/systems-engineers
+*.js @Danyp-Lab/systems-engineers
+
+# Persian Language Tech & Game Localization
+/locales/ @Danyp-Lab/localization-guild
+/translations/ @Danyp-Lab/localization-guild
+/farsi/ @Danyp-Lab/localization-guild
