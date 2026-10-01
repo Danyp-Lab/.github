@@ -1,0 +1,26 @@
+name: "🚀 Service / Feature Proposal"
+description: Propose adding a new self-hosted app, automation script, or architectural improvement
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Use Case / Motivation
+      description: What problem does this solve or what service do you want to add?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution / Architecture
+      description: How should this be deployed? (e.g. Docker Compose, VLAN assignment, reverse proxy path, storage requirements)
+    validations:
+      required: true
+  - type: textarea
+    id: security-considerations
+    attributes:
+      label: Security & Network Exposure
+      description: Will this be exposed publicly via Cloudflare/Traefik? Does it require SSO/Authelia? What credentials/ports are required?
+    validations:
+      required: false

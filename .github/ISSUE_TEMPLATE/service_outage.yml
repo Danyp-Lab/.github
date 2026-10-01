@@ -1,0 +1,29 @@
+name: "🚨 Service Incident / Outage"
+description: Track an ongoing service downtime or network partition event
+title: "[INCIDENT]: "
+labels: ["incident", "priority-high"]
+body:
+  - type: input
+    id: affected-service
+    attributes:
+      label: Service(s) Impacted
+      placeholder: "e.g., Vaultwarden, Plex, Traefik, TrueNAS SMB"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - "P1 - Complete Homelab Outage / Gateway Unreachable"
+        - "P2 - Core Service Down (DNS, Storage, Reverse Proxy)"
+        - "P3 - Secondary Service Down (Media, Utilities)"
+        - "P4 - Minor Degradation / Performance Issue"
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Blast Radius & Impact
+    validations:
+      required: true

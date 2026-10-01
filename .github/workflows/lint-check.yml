@@ -1,0 +1,73 @@
+name: "CI - Infrastructure & Code Quality"
+
+on:
+  workflow_call:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  yaml-and-markdown:
+    name: "Lint YAML & Markdown"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Lint YAML Files
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: "."
+          config_data: |
+            extends: default
+            rules:
+              line-length: disable
+              truthy: disable
+
+      - name: Lint Markdown Files
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
+
+  shellcheck:
+    name: "Shell Script Linting"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        with:
+          ignore_paths: >-
+            .git
+            node_modules
+
+  docker-compose-validate:
+    name: "Validate Docker Compose Files"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Validate Compose Syntaxes
+        run: |
+          set -e
+          shopt -s globstar nullglob
+          COMPOSE_FILES=(**/docker-compose*.yml **/compose*.yml)
+          if [ ${#COMPOSE_FILES[@]} -eq 0 ]; then
+            echo "No compose files found. Skipping check."
+            exit 0
+          fi
+          for file in "${COMPOSE_FILES[@]}"; do
+            echo "🔍 Validating: $file"
+            docker compose -f "$file" config --quiet || {
+              echo "❌ Error in compose file: $file"
+              exit 1
+            }
+          done
+          echo "✅ All compose files validated successfully."

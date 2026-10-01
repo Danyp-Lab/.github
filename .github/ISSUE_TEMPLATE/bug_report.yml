@@ -1,0 +1,51 @@
+name: "🐛 Infrastructure / Service Bug Report"
+description: Report a broken service, deployment failure, or configuration regression
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Make sure **not to include any secrets, passwords, private IPs, or API keys** in your logs or configs.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Component / Layer Affected
+      description: Which area of the homelab is impacted?
+      options:
+        - "Docker Service / Compose Stack"
+        - "Reverse Proxy / Ingress / SSL"
+        - "Networking / VLAN / Firewall (OPNsense)"
+        - "Storage / ZFS / TrueNAS / NFS"
+        - "DNS / AdGuard / Pi-hole / Cloudflare"
+        - "CI/CD / Automation Workflow"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Host / Environment
+      description: e.g., Proxmox Node 1, Ubuntu 24.04 VM, LXC 102
+      placeholder: "e.g. node-01 (Ubuntu 24.04 LTS, Docker 27.x)"
+    validations:
+      required: true
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: What happened?
+      description: Describe the bug or failure in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What was expected to occur?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized Logs / Output
+      description: Paste relevant `docker logs`, `systemctl status`, or error messages (Redact secrets!).
+      render: shell
