@@ -21,7 +21,7 @@ jobs:
           script: |
             const creator = context.payload.sender.login;
             const assignee = 'DanialPahlavan';
-            
+
             if (context.payload.issue) {
               await github.rest.issues.addAssignees({
                 owner: context.repo.owner,
