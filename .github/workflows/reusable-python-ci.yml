@@ -1,0 +1,41 @@
+---
+name: "Reusable Python CI"
+
+on:
+  workflow_call:
+    inputs:
+      python-version:
+        required: false
+        type: string
+        default: "3.11"
+
+permissions:
+  contents: read
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        run: uv python install ${{ inputs.python-version }}
+
+      - name: Run Ruff (Lint & Formatting)
+        run: |
+          uvx ruff check .
+          uvx ruff format --check .
+
+      - name: Run Tests (if tests exist)
+        run: |
+          if [ -d "tests" ] || [ -f "test.py" ]; then
+            uv run pytest
+          else
+            echo "No tests directory found, skipping pytest."
+          fi
