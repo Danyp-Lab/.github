@@ -1,0 +1,41 @@
+---
+name: "Reusable CodeQL Security Analysis"
+
+on:
+  workflow_call:
+    inputs:
+      language:
+        description: "Primary language to analyze (e.g. python, javascript-typescript)"
+        required: false
+        type: string
+        default: "python"
+
+permissions:
+  contents: read
+  security-events: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-codeql
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    name: "CodeQL Analysis (${{ inputs.language }})"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ inputs.language }}
+          queries: security-extended,security-and-quality
+
+      - name: Autobuild Code (if compiled)
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:${{ inputs.language }}"
