@@ -1,82 +1,136 @@
 <div align="center">
 
-# 🔬 Danyp-Lab
-### *Danial Pahlavan’s Applied Engineering & Innovation Laboratory*
+  <!-- Cyberpunk Gradient Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%E2%80%99s%20Home%20Studio%20%7C%20Applied%20R%26D%20Sandbox&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danyp-Lab - Engineering Studio & R&D Sandbox" />
 
-[![GitHub](https://img.shields.io/badge/Founder-Danial%20Pahlavan-blue?style=for-the-badge&logo=github)](https://github.com/DanialPahlavan)
-[![Focus](https://img.shields.io/badge/Focus-AI%20%7C%20Systems%20%7C%20Farsi%20Tech%20%7C%20Media-darkgreen?style=for-the-badge)](#-research--engineering-pillars)
-[![Status](https://img.shields.io/badge/Status-Active%20R%26D-success?style=for-the-badge)](#)
+  <br/>
 
-<p align="center">
-  A multidisciplinary engineering hub exploring artificial intelligence, desktop system frameworks, Persian language technology, and applied media tools.
-</p>
+  <!-- Dynamic Typing Subtitle -->
+  <a href="https://github.com/DanialPahlavan">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Personal+Home+Studio+%26+Applied+R%26D+Incubator;Centralized+Workspace+for+Multi-Disciplinary+Engineering;Private+Research+Sandbox+%7C+AI%2C+Systems+%26+Automation;Mature+Innovations+Graduate+to+%40DanialPahlavan&font=Fira+Code&center=true&width=700&height=45&color=00f2fe&vCenter=true&pause=1200&size=16" alt="Danyp-Lab - Dynamic Headline" />
+  </a>
+
+  <br/><br/>
+
+  <!-- Status & Governance Badges -->
+  <p>
+    <a href="https://github.com/DanialPahlavan" target="_blank">
+      <img src="https://img.shields.io/badge/Director-Danial%20Pahlavan-00f2fe?style=flat-square&logo=github&logoColor=black" alt="Director" />
+    </a>
+    &nbsp;
+    <img src="https://img.shields.io/badge/Workspace-Private_R%26D_Sandbox-1f2937?style=flat-square&logo=git&logoColor=00f2fe" alt="Workspace" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Status-Active_Incubation-38bdf8?style=flat-square&logo=statuspage&logoColor=white" alt="Status" />
+    &nbsp;
+    <a href="https://github.com/DanialPahlavan?tab=repositories" target="_blank">
+      <img src="https://img.shields.io/badge/Public_Releases-%40DanialPahlavan-f59e0b?style=flat-square&logo=star&logoColor=white" alt="Public Releases" />
+    </a>
+  </p>
 
 </div>
 
 ---
 
-### 🏛️ Research & Engineering Pillars
+### 🏛️ About Danyp-Lab (Mission & Incubation Workflow)
+
+**Danyp-Lab** serves as the private engineering home studio and internal R&D incubator founded by [Danial Pahlavan](https://github.com/DanialPahlavan). 
+
+To maintain high architectural order, streamline continuous experimentation, and modularize proprietary explorations, all multi-disciplinary initiatives are organized and incubated under this centralized hub.
 
 ```
-                           ┌────────────────────────┐
-                           │       Danyp-Lab        │
-                           │   Engineering Studio   │
-                           └───────────┬────────────┘
-                                       │
-         ┌──────────────────┬──────────┴──────────┬──────────────────┐
-         ▼                  ▼                     ▼                  ▼
-   [ Artificial       [ Desktop &           [ Persian Lang     [ Media & Systems
-   Intelligence ]     System Tools ]        Technology ]       Automation ]
-    • Medical AI       • Cinnamon Desktop    • Localization     • FFmpeg Tools
-    • Computer Vision  • Linux Applets       • Game Tools       • Scrapers & Bots
-    • RAG & LLMs       • C++ / JS Engines    • NLP & Farsi AI   • Signal Analysis
+       ┌────────────────────────────────────────────────────────┐
+       │                Danyp-Lab (Home Studio)                 │
+       │       Private R&D Incubator & Modular Experiments       │
+       └───────────────────────────┬────────────────────────────┘
+                                   │
+              [ Iteration, Validation & Benchmarking ]
+                                   │
+                                   ▼
+       ┌────────────────────────────────────────────────────────┐
+       │             @DanialPahlavan (Main Profile)             │
+       │       Curated, Production-Ready & Open-Source Releases │
+       └────────────────────────────────────────────────────────┘
+```
+
+> [!NOTE]
+> **Repository Access & Release Lifecycle**:  
+> All repositories housed within this organization are **private internal workspaces, prototypes, and works-in-progress**. Once an experimental architecture, model pipeline, or software utility achieves optimal stability, benchmarks, and production-ready quality, it is graduated and published publicly on the primary profile: **[@DanialPahlavan](https://github.com/DanialPahlavan)**.
+
+---
+
+### 🔬 Core Engineering Domains
+
+Rather than tracking isolated projects, research and engineering at Danyp-Lab progress through four foundational pillars:
+
+```
+                      ┌────────────────────────┐
+                      │       Danyp-Lab        │
+                      │   Engineering Studio   │
+                      └───────────┬────────────┘
+                                  │
+    ┌──────────────────┬──────────┴──────────┬──────────────────┐
+    ▼                  ▼                     ▼                  ▼
+[ Artificial       [ Desktop &           [ Persian Lang     [ Media & Systems
+Intelligence ]     System Tools ]        Technology ]       Automation ]
+ • Medical AI       • Cinnamon / Mint     • Localization     • FFmpeg Pipelines
+ • Computer Vision  • Shell Extensions    • Asset Extraction • Stream Bots & Scrapers
+ • RAG & LLMs       • Linux Applets       • Text Normalizing • Signal & Audio Tools
+ • Edge Quantization• C++ / JS Engines    • Farsi NLP        • DevOps Telemetry
 ```
 
 ---
 
-### 🔬 Core Competencies & Tech Stack
+### 💻 Technologies & Primary Languages
 
-| Domain | Technologies & Frameworks |
+<div align="center">
+
+  <!-- Interactive Dark SkillIcons Ribbon -->
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=python,cpp,cs,ts,js,linux,bash,pytorch,tensorflow,docker,postgres,git&theme=dark" alt="Danyp-Lab Core Technologies" />
+    </a>
+  </p>
+
+</div>
+
+| Engineering Domain | Primary Stacks & Frameworks |
 | :--- | :--- |
-| **Artificial Intelligence & Vision** | PyTorch, TensorFlow, OpenCV, YOLO, Hugging Face, RAG pipelines |
-| **Desktop Systems & GUI** | Linux Mint / Cinnamon, JavaScript (GJS), Python (Tkinter/PyQt), Bash |
-| **Localization & NLP** | Farsi font engines, game asset unpacking, text normalization, translation tools |
-| **Media & Audio Engineering** | FFmpeg, VoIP/Audio signal processing, codecs, automation pipelines |
+| **Deep Learning & Vision** | PyTorch, TorchVision, OpenCV, YOLO, Hugging Face Transformers, ONNX, TensorRT |
+| **Desktop Systems & OS** | Linux Mint / Cinnamon Desktop, JavaScript (GJS), C++, Python (PyQt/Tkinter), Bash |
+| **Persian NLP & Localization** | Custom Font Engines, Asset Parsers, Character Normalization, Translation Pipelines |
+| **Automation & Media** | FFmpeg, Audio/VoIP Codecs, Asynchronous Scrapers, Docker, CI/CD Actions |
+
+<br/>
+
+<div align="center">
+
+  <!-- Danyp-Lab Language Distribution Summary Cards -->
+  <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
+    <tr align="center">
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" height="135" alt="Top Languages by Commit - Danyp-Lab" />
+      </td>
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" height="135" alt="Repositories per Language - Danyp-Lab" />
+      </td>
+    </tr>
+  </table>
+
+</div>
 
 ---
 
-### 🚀 Featured Laboratory Projects
+### 📬 Access & Public Releases
 
-#### 1. 🖥️ Desktop Frameworks & Systems Engineering
-- **[`Project-Cassia`](https://github.com/Danyp-Lab/Project-Cassia)**  
-  *Customized UI framework and JavaScript applet collection designed specifically for the Cinnamon desktop environment.*  
-  `Stack: JavaScript, GJS, Cinnamon, CSS`
+* **Primary Account & Public Repositories**: [github.com/DanialPahlavan](https://github.com/DanialPahlavan)
+* **Lead Engineer**: [Danial Pahlavan](https://github.com/DanialPahlavan)
+* **Inquiries & Collaboration**: [daniel.pahlavan@gmail.com](mailto:daniel.pahlavan@gmail.com)
 
-#### 2. 🧠 Artificial Intelligence & Vision
-- **[`RAG`](https://github.com/Danyp-Lab/RAG)**  
-  *Curated architectures, retrieval pipelines, and benchmarking implementations for Retrieval-Augmented Generation.*  
-  `Stack: Python, LLM, Vector DBs`
-- **`Dental-X-Ray-Panoramic`** *(R&D / Proprietary)*  
-  *Deep learning segmentation and pathology detection on panoramic dental radiographs.*  
-  `Stack: PyTorch, Medical Imaging, Computer Vision`
-- **`body-composition_AI`** *(R&D / Proprietary)*  
-  *Automated body composition estimation and visual anthropometric feature extraction.*  
-  `Stack: Deep Learning, Pose Estimation, Python`
+<br/>
 
-#### 3. 🌐 Persian Language Technology & Localization
-- **`Parsik`** *(R&D / Proprietary)*  
-  *Graphical installer and integration engine to bring native Farsi language support into desktop applications and games.*  
-  `Stack: Python GUI, Asset Extraction, Localization`
-
-#### 4. 🎬 Media & Automation Utilities
-- **`FFmpegGUI`** *(R&D / Proprietary)*  
-  *Streamlined graphical interface and batch processor built on top of the FFmpeg engine.*  
-  `Stack: Python, FFmpeg, Desktop GUI`
-
----
-
-### 📬 Connect & Collaborate
-
-- **Lead Engineer**: [Danial Pahlavan](https://github.com/DanialPahlavan)
-- **Email**: [daniel.pahlavan@gmail.com](mailto:daniel.pahlavan@gmail.com)
-- **Organization**: [github.com/Danyp-Lab](https://github.com/Danyp-Lab)
+<!-- Matching Cyberpunk Wave Footer Banner -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=80&section=footer" width="100%" alt="Footer Wave Divider" />
+  <br/>
+  <sub>Danyp-Lab • Private Home Studio & Applied Engineering Incubator</sub>
+</div>
