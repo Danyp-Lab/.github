@@ -1,13 +1,21 @@
 <div align="center">
 
-  <!-- Cyberpunk Gradient Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%27s%20Home%20Studio%20%7C%20Applied%20R%26amp%3BD%20Sandbox&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danyp-Lab - Engineering Studio & R&D Sandbox" />
+  <!-- Adaptive Cyberpunk / Royal Wave Header Banner -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%27s%20Home%20Studio%20%7C%20Applied%20R%26amp%3BD%20Sandbox&descSize=16&descAlignY=62&descAlign=50" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e40af,100:0369a1&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%27s%20Home%20Studio%20%7C%20Applied%20R%26amp%3BD%20Sandbox&descSize=16&descAlignY=62&descAlign=50" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%27s%20Home%20Studio%20%7C%20Applied%20R%26amp%3BD%20Sandbox&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danyp-Lab - Engineering Studio & R&D Sandbox" />
+  </picture>
 
   <br/>
 
-  <!-- Dynamic Typing Subtitle -->
+  <!-- Dynamic Typing Subtitle (Dark: Neon Cyan • Light: Deep Ocean Blue) -->
   <a href="https://github.com/DanialPahlavan">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Personal+Home+Studio+%26+Applied+R%26D+Incubator;Centralized+Workspace+for+Multi-Disciplinary+Engineering;Private+Research+Sandbox+%7C+AI%2C+Systems+%26+Automation;Mature+Innovations+Graduate+to+%40DanialPahlavan&font=Fira+Code&center=true&width=700&height=45&color=00f2fe&vCenter=true&pause=1200&size=16" alt="Danyp-Lab - Dynamic Headline" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?lines=Personal+Home+Studio+%26+Applied+R%26D+Incubator;Centralized+Workspace+for+Multi-Disciplinary+Engineering;Private+Research+Sandbox+%7C+AI%2C+Systems+%26+Automation;Mature+Innovations+Graduate+to+%40DanialPahlavan&font=Fira+Code&center=true&width=700&height=45&color=00f2fe&vCenter=true&pause=1200&size=16" />
+      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?lines=Personal+Home+Studio+%26+Applied+R%26D+Incubator;Centralized+Workspace+for+Multi-Disciplinary+Engineering;Private+Research+Sandbox+%7C+AI%2C+Systems+%26+Automation;Mature+Innovations+Graduate+to+%40DanialPahlavan&font=Fira+Code&center=true&width=700&height=45&color=0369a1&vCenter=true&pause=1200&size=16" />
+      <img src="https://readme-typing-svg.demolab.com/?lines=Personal+Home+Studio+%26+Applied+R%26D+Incubator;Centralized+Workspace+for+Multi-Disciplinary+Engineering;Private+Research+Sandbox+%7C+AI%2C+Systems+%26+Automation;Mature+Innovations+Graduate+to+%40DanialPahlavan&font=Fira+Code&center=true&width=700&height=45&color=00f2fe&vCenter=true&pause=1200&size=16" alt="Danyp-Lab - Dynamic Headline" />
+    </picture>
   </a>
 
   <br/><br/>
@@ -128,9 +136,13 @@ Intelligence ]     System Tools ]        Technology ]       Automation ]
 
 <br/>
 
-<!-- Matching Cyberpunk Wave Footer Banner -->
+<!-- Matching Adaptive Wave Footer Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=80&section=footer" width="100%" alt="Footer Wave Divider" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=80&section=footer" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e40af,100:0369a1&height=80&section=footer" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=80&section=footer" width="100%" alt="Footer Wave Divider" />
+  </picture>
   <br/>
   <sub>Danyp-Lab • Private Home Studio & Applied Engineering Incubator</sub>
 </div>
