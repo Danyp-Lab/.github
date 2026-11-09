@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Cyberpunk Gradient Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%E2%80%99s%20Home%20Studio%20%7C%20Applied%20R%26D%20Sandbox&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danyp-Lab - Engineering Studio & R&D Sandbox" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=140&section=header&text=Danyp-Lab&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Danial%20Pahlavan%27s%20Home%20Studio%20%7C%20Applied%20R%26amp%3BD%20Sandbox&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danyp-Lab - Engineering Studio & R&D Sandbox" />
 
   <br/>
 
